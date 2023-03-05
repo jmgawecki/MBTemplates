@@ -100,6 +100,7 @@ fetch_files Coordinator[@] "$main_destination" "Coordinator.xctemplate"
 echo -ne '🏠🐎                                              (100%)\r'
 echo
 echo -e "\033[32mMoneybox templates fetched and installed to your Xcode.\033[0m"
-echo -e "\033[33mRestart Xcode for changes to be applied.\033[0m"
+echo -e "\033[38;5;208mRestart Xcode for changes to be applied.\033[0m"
+echo -e "\033[33m\033[0m"
 echo "Happy Coding!"
 
