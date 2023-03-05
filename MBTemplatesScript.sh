@@ -85,7 +85,7 @@ echo "[0;5;37;47m                      . .. .                      [0m
 [0;5;37;47m    .      :  S8[0;5;37;43m8[0;5;37;45m8[0;5;1;31;43mS[0;5;37;43m8[0;5;1;33;41m8[0;5;1;31;43m88[0;5;37;43m8[0;5;1;33;41m8[0;5;37;43mX[0;5;1;33;41m8[0;5;37;43mX[0;5;1;33;41m8[0;5;37;43m@[0;5;1;33;41m8[0;5;37;43m8[0;5;1;33;41m8[0;5;37;47m888;t..       .  [0m
 [0;5;37;47m      .       .;   .:t88888888.  :. ..  .  . .   .[0m"
 
-echo -ne '🏠                              🌤️              🐎(16%)\r'
+echo -ne '🏠                                            🐎(16%)\r test \n another test'
 fetch_files EmptyMBXCTestCase[@] "$test_destination" "Empty MBXCTestCase File.xctemplate"
 echo -ne '🏠                                       🐎       (32%)\r'
 fetch_files ViewModelTestswithMocks[@] "$test_destination" "View Model Tests with Mocks.xctemplate"
