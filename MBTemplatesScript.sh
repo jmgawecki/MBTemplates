@@ -98,9 +98,6 @@ fetch_files Factory[@] "$main_destination" "Factory.xctemplate"
 echo -ne '🏠         🐎                                     (96%)\r'
 fetch_files Coordinator[@] "$main_destination" "Coordinator.xctemplate"
 echo -ne '🏠🐎                                              (100%)\r'
-sleep 1
-echo -ne
-
 echo
 echo -e "\033[32mMoneybox templates fetched and installed to your Xcode.\033[0m"
 echo -e "\033[33mRestart Xcode for changes to be applied.\033[0m"
